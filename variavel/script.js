@@ -123,5 +123,20 @@ console.log(33 + ' é minha idade.'); */
 /* const coercao = '44' + '12' + 10;
 console.log('44' + '12' + 10 ); */
 
-// Valores verdadeiros/Valores falsos
+// Conversão explíxita 
+
+/* console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Kaio'));
+console.log(Boolean({}));
+console.log(Boolean('')); */
+
+
+/* const valor = 0;
+
+if (valor) {
+    console.log('Entrou no if');
+} else {
+    console.log('Entrou no ELSE');
+} */
  
