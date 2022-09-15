@@ -16,7 +16,7 @@ console.log("Colégio " + "Objetivo " + "Taguatinga - QI");  */
 
 //Operadores básicos
 
-/* const valor = 10;
+/*  const valor = 10;
 console.log(valor % 2);
 console.log(11 % 2);  
 
@@ -37,27 +37,27 @@ console.log(3 + undefined);
 
 console.log(1 + 2 + ' Programdores JavaScript'); 
 
-console.log(1 + (2 + ' Programadores JavaScript'));   */
+console.log(1 + (2 + ' Programadores JavaScript'));  */  
+
+//Operadores de comparação
+
+/* const x = 2;
+const y = 5;
+const z = 9;
+const w = 2;
+const k = '5';
+
+console.log( x > y ); //false
+console.log( y < z ); // true
+console.log( x <= w ); // true
+console.log( y >= w); // true
+console.log( y == k); // true
+console.log( y === k); //false
+console.log( z != w); //true */
 
 
 
 
 
-// Teste de conhecimento 
-// Fórmula IMC = massa / altura ** 2 = massa / (altura * altura)
 
-let massaCarlos = 78;
-let alturaCarlos = 1.69;
-let carlosMaiorIMC = true;
-const imcCarlos = massaCarlos / alturaCarlos**2; 
-
-
-let massaJoao = 92;
-let alturaJoao = 1.95;
-
-console.log('Carlos: ' + massaCarlos + 'kg, ' + alturaCarlos + 'm');
-console.log('João: ' + massaJoao + 'kg, ' + alturaJoao + 'm');
-
-console.log('IMC Carlos: ' + massaCarlos + '/' + alturaCarlos);
- 
  

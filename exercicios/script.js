@@ -137,8 +137,8 @@ console.log('Temperatura em Kelvin: ' + temperatura_kelvin + 'K'); */
 const velocidade_m = velocidade_km / 3.6;
 
 console.log('Velocidade em km/h: ' + velocidade_km + 'km/h');
-console.log('Velocidade em m/s: ' + velocidade_m + 'm/s');
- */
+console.log('Velocidade em m/s: ' + velocidade_m + 'm/s'); */
+ 
 
 // Exercício 14 
 
