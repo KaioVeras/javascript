@@ -142,3 +142,6 @@ console.log('Velocidade em m/s: ' + velocidade_m + 'm/s');
 
 // Exercício 14 
 
+
+
+
