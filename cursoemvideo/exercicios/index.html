@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            margin: 20px;
+            background: lightblue;
+            font: normal 18pt Arial;
+        }
+        input {
+            font: normal 18pt Arial;
+            width: 230px;
+        }
+        input#botao {
+            width: 100px;
+        }
+        div#nacionalidade {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <input type="text" name="text01" id="text01">
+    <input type="button" value="Verificar" onclick="verificar()" id="botao">
+    <div id="nacionalidade">Vivendo em:</div>
+    <script>
+        function verificar() {
+        let txt01 = window.document.querySelector('input#text01')
+        let  nacionalidade = window.document.querySelector('div#nacionalidade')
+        nacionalidade.innerHTML = `Vivendo em:<strong> ${txt01.value} </strong><br/>`
+        if (txt01.value == 'Brasil' || txt01.value == 'brasil' || txt01.value == 'BRASIL') {
+            nacionalidade.innerHTML += `<p>Você é <strong>Brasileiro!</strong></p>`
+        } else {
+            nacionalidade.innerHTML += `<p>Você é <strong>Estrangeiro!</strong></p>`
+        }
+        nacionalidade.innerHTML += `<p>Obrigado!<p/>`
+        }
+    </script>
+</body>
+</html>
