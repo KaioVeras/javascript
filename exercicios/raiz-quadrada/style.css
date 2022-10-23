@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(18, 90, 134);
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
