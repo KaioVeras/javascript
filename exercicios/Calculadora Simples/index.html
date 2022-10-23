@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Simples</h1>
+    </header>
+    <main>
+        <h2>Soma</h2>
+        <input  type="number" name="soma01" id="soma01" class="margin"> +
+        <input type="number" name="soma02" id="soma02"> =
+        <div class="padding" id="somares">Resposta</div>
+        <input type="button" value="Somar" onclick="somar()">
+
+        <h2>Subtração</h2>
+        <input type="number" name="sub01" id="sub01" class="margin"> -
+        <input type="number" name="sub02" id="sub02"> =
+        <div class="padding" id="subres">Resposta</div>
+        <input type="button" value="Subtrair" onclick="subtrair()">
+
+        <h2>Multiplicação</h2>
+        <input type="number" name="mul01" id="mul01" class="margin"> *
+        <input type="number" name="mul02" id="mul02"> =
+        <div class="padding" id="mulres">Resposta</div>
+        <input type="button" value="Multiplicar" onclick="multiplicar()">
+
+        <h2>Divisão</h2>
+        <input type="number" name="div01" id="div01" class="margin"> /
+        <input type="number" name="div02" id="div02"> =
+        <div class="padding" id="divres">Resposta</div>
+        <input type="button" value="Dividir" onclick="dividir()">
+
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>

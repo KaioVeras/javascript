@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(18, 90, 134);
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 15px black;
+    margin-bottom: 50px;
+}
+
+main h2 {
+    color: white;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+div {
+    display: inline-block;
+    background-color: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+
+input.margin {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+div.padding {
+   padding: 0px 10px; 
+}
